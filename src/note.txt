@@ -9,6 +9,11 @@ for B : RMatris2<Vec[x]
 //The given values calculating and results insert the RMatris2 , 
 calculating probability and returning minus point to AI.
 
+
+parent note probability.
+take meridien from matris2
+use matristree to calculate.
+
 for matris calculating given value Vec<X>.len calculating : 
 example : 
      row count : if X % 3 == 0 ;
