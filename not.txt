@@ -1,0 +1,15 @@
+1. matris indis değerini alır ve matris ağacının soluna eklenir.
+probability motoru indis değerini katsayılara böler (+-5)*10^n 
+llm modeli öğrendiği katsayı üzerinden tahmin yapar.
+tahmin değerleri 2. matriste oluşturulur ve matris ağacının sağına eklenir.
+probability motoru bir olasılık seçer ve bu değer üzerinden kendini günceller.
+geri dönüş değeriyle makine tahmin doğruluğunu kontrol eder ve kendini günceller.
+ağaç olasılık değerini baz alarak 2. düğüme ilerler , her düğüm bir önceki olasılık değerini öğrenmeye devam eder.
+
+Algoritmalar :
+///////////////////süperpermütasyon:
+*matris ağacında 2. matris , 
+kendinden bir önceki olasılık değerini toplam değere ekler ve 2. matristeki düğüm sayısına böler.*
+her 2. matriste 1. matristen gelen veri ve bir önceki değerden hesaplanmış veri bulunur.
+yapay zeka hesaplanmış değeri - 2.matristeki alt değer + sapma = çıktı 
+mesafe - standart fren mesafesi - sapma
